@@ -18,3 +18,7 @@ Le script JS/JQuery avec les appels ajax se trouve dans js/custom_datatable.js.
 L'action se trouve dans le controller controllers/ControllerPrestation.php ( action : Prestations ).
 
 Aujourd'hui ce projet passe en refonte complète. Ce mois-ci je migre l'application vers angular, car le code devient trop difficile à maintenir et l'ajout de fonctionnalité devient fastidieux. Mon mini-framework devient donc obselète vu l'évolution du projet.
+
+
+Le tableau dynamique est en JQuery et manipule trop de DOM. Nous allons passé sur le plugin fullCalendar pour remplacer celui ci.
+J'ai tout développé de la sorte car le client voulait vraiment que l'encodage fonctionne comme ci on manipulait un tableau excel.
