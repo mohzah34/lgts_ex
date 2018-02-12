@@ -8,6 +8,8 @@ J'ai limité les fichiers au niveau de l'encodage des prestations.
 
 L'application permet aux travailleurs de l'entreprise de venir encoder leurs prestations du mois.Via un tableau auto généré selon les jours du mois courant, chaque ligne correspondt à une date du mois.Il est possible de sélectionner le client, le nombre d'heures, début de la prestation et le nombre de titres remis, les titres manquants sont calculés automatiquement. Un double-clique sur la cellule de la colonne ouvre un select pour choisir la valeur. Une fois toutes les prestations encodées l'employée clôture le calendrier et passe au mois suivant.
 
+- Une fois un client et le nombre d'heure séléctionné , un appel ajax est lancé pour encoder la prestation dans la DB. 
+
 DEMO EN VIDEO :
 https://www.useloom.com/share/a8d9c3a11e044aa4b52072c61b4f5cee
 
