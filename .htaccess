@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+	RewriteBase /
+    RewriteRule ^([\w]*)/?([\w]*)?/?([\w]*)?/?$ index.php?controller=$1&action=$2&id=$3 [NC,L]
+</IfModule>
+
+
